@@ -1,79 +1,95 @@
-# Crypto-Lab
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography Algorithms in C & C++</title>
+</head>
+<body>
+    <h1>Cryptography Algorithms in C & C++</h1>
 
+    <p>This repository contains implementations of various cryptographic algorithms in <strong>C</strong> and <strong>C++</strong>. These implementations serve as educational tools and provide a hands-on approach to understanding the basics of cryptography.</p>
 
-<h1>Cryptography Algorithms in C & C++</h1>
-This repository contains implementations of various cryptographic algorithms in C and C++. These implementations serve as educational tools and provide a hands-on approach to understanding the basics of cryptography.
+    <h2>🚀 <strong>Algorithms Implemented</strong></h2>
+    <ul>
+        <li>Caesar Cipher (Substitution Cipher)</li>
+        <li>Vigenère Cipher (Polyalphabetic Cipher)</li>
+        <li>Playfair Cipher (Digraph Substitution Cipher)</li>
+        <li>Hill Cipher (Matrix-based Cipher)</li>
+        <li>Rail Fence Cipher (Transposition Cipher - Row & Column Transformation)</li>
+        <li>Columnar Transposition Cipher (Column-based Transposition Cipher)</li>
+    </ul>
 
-🚀 Algorithms Implemented
-Caesar Cipher (Substitution Cipher)
-Vigenère Cipher (Polyalphabetic Cipher)
-Playfair Cipher (Digraph Substitution Cipher)
-Hill Cipher (Matrix-based Cipher)
-Rail Fence Cipher (Transposition Cipher - Row & Column Transformation)
-Columnar Transposition Cipher (Column-based Transposition Cipher)
-🛠️ Technologies Used
-C Programming Language
-C++ Programming Language
-📚 Overview
-This repository demonstrates different cryptographic techniques using the C and C++ languages. Each cipher is implemented with both encryption and decryption functionalities. The purpose is to help users understand how each algorithm works and provide code examples for educational and practical purposes.
+    <h2>🛠️ <strong>Technologies Used</strong></h2>
+    <ul>
+        <li>C Programming Language</li>
+        <li>C++ Programming Language</li>
+    </ul>
 
-🔑 How to Use
-Prerequisites
-To run the programs, you need to have a C or C++ compiler installed (such as GCC or Clang).
+    <h2>📚 <strong>Overview</strong></h2>
+    <p>This repository demonstrates different cryptographic techniques using the C and C++ languages. Each cipher is implemented with both <strong>encryption</strong> and <strong>decryption</strong> functionalities. The purpose is to help users understand how each algorithm works and provide code examples for educational and practical purposes.</p>
 
-Steps to Run
-Clone the repository to your local machine:
+    <h2>🔑 <strong>How to Use</strong></h2>
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/crypto-c-cpp.git
-Navigate to the desired cipher program directory (e.g., caesar_cipher, rail_fence_cipher).
+    <h3>Prerequisites</h3>
+    <p>To run the programs, you need to have a C or C++ compiler installed (such as GCC or Clang).</p>
 
-Compile the code:
+    <h3>Steps to Run</h3>
+    <ol>
+        <li>Clone the repository to your local machine:</li>
+        <pre>git clone https://github.com/your-username/crypto-c-cpp.git</pre>
 
-For C:
+        <li>Navigate to the desired cipher program directory (e.g., <code>caesar_cipher</code>, <code>rail_fence_cipher</code>).</li>
 
-gcc -o caesar_cipher caesar_cipher.c
-For C++:
+        <li>Compile the code:
+            <ul>
+                <li>For C: <pre>gcc -o caesar_cipher caesar_cipher.c</pre></li>
+                <li>For C++: <pre>g++ -o caesar_cipher caesar_cipher.cpp</pre></li>
+            </ul>
+        </li>
 
-g++ -o caesar_cipher caesar_cipher.cpp
-Run the program:
+        <li>Run the program:
+            <ul>
+                <li>For C: <pre>./caesar_cipher</pre></li>
+                <li>For C++: <pre>./caesar_cipher</pre></li>
+            </ul>
+        </li>
+    </ol>
 
-For C:
-bash
-Copy
-Edit
-./caesar_cipher
-For C++:
-bash
-Copy
-Edit
-./caesar_cipher
-✨ Features
-Encryption/Decryption: Each cipher allows both encryption and decryption of text.
-Interactive Input: Users can input their own text and keys.
-Multiple Ciphers: Several classic cryptographic algorithms are implemented for comparison.
-📝 Example
-Here is an example for Caesar Cipher (Shift Cipher):
+    <h2>✨ <strong>Features</strong></h2>
+    <ul>
+        <li><strong>Encryption/Decryption:</strong> Each cipher allows both encryption and decryption of text.</li>
+        <li><strong>Interactive Input:</strong> Users can input their own text and keys.</li>
+        <li><strong>Multiple Ciphers:</strong> Several classic cryptographic algorithms are implemented for comparison.</li>
+    </ul>
 
-Encrypting the text "HELLO" with a key of 3 results in "KHOOR".
-Decrypting "KHOOR" with the same key returns "HELLO".
-🔍 Usage Examples
-You can specify how each cipher works, for instance:
+    <h2>📝 <strong>Example</strong></h2>
+    <p>Here is an example for <strong>Caesar Cipher</strong> (Shift Cipher):</p>
+    <ul>
+        <li><strong>Encrypting</strong> the text "<code>HELLO</code>" with a key of <code>3</code> results in "<code>KHOOR</code>".</li>
+        <li><strong>Decrypting</strong> "<code>KHOOR</code>" with the same key returns "<code>HELLO</code>".</li>
+    </ul>
 
-Caesar Cipher Example
+    <h2>🔍 <strong>Usage Examples</strong></h2>
+    <h3>Caesar Cipher Example</h3>
+    <pre>
+    Enter the text to encrypt: HELLO
+    Enter the key: 3
+    Encrypted Text: KHOOR
+    </pre>
 
-Enter the text to encrypt: HELLO
-Enter the key: 3
-Encrypted Text: KHOOR
-Vigenère Cipher Example
-Enter the text to encrypt: HELLO
-Enter the key: KEY
-Encrypted Text: RIJVS
-💡 Contributing
-Feel free to fork this repository, make improvements, or submit issues and pull requests.
+    <h3>Vigenère Cipher Example</h3>
+    <pre>
+    Enter the text to encrypt: HELLO
+    Enter the key: KEY
+    Encrypted Text: RIJVS
+    </pre>
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    <h2>💡 <strong>Contributing</strong></h2>
+    <p>Feel free to fork this repository, make improvements, or submit issues and pull requests.</p>
 
+    <h2>📄 <strong>License</strong></h2>
+    <p>This project is licensed under the MIT License - see the <code><a href="LICENSE">LICENSE</a></code> file for details.</p>
+
+</body>
+</html>
