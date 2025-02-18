@@ -1,7 +1,7 @@
 # Crypto-Lab
 
 
-Cryptography Algorithms in C & C++
+<h1>Cryptography Algorithms in C & C++</h1>
 This repository contains implementations of various cryptographic algorithms in C and C++. These implementations serve as educational tools and provide a hands-on approach to understanding the basics of cryptography.
 
 🚀 Algorithms Implemented
@@ -33,14 +33,10 @@ Navigate to the desired cipher program directory (e.g., caesar_cipher, rail_fenc
 Compile the code:
 
 For C:
-bash
-Copy
-Edit
+
 gcc -o caesar_cipher caesar_cipher.c
 For C++:
-bash
-Copy
-Edit
+
 g++ -o caesar_cipher caesar_cipher.cpp
 Run the program:
 
@@ -67,16 +63,11 @@ Decrypting "KHOOR" with the same key returns "HELLO".
 You can specify how each cipher works, for instance:
 
 Caesar Cipher Example
-bash
-Copy
-Edit
+
 Enter the text to encrypt: HELLO
 Enter the key: 3
 Encrypted Text: KHOOR
 Vigenère Cipher Example
-bash
-Copy
-Edit
 Enter the text to encrypt: HELLO
 Enter the key: KEY
 Encrypted Text: RIJVS
